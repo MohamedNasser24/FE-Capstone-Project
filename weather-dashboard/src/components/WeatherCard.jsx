@@ -63,10 +63,10 @@ const WeatherCard = () => {
         } catch (error) {
             SetweatherData(flase);
             console.error("Error in fetching weather data")
-        }      
+        }   
     }
     useEffect(()=>{
-        search("London");
+        search("Cairo");
     },[])
      
   return (
