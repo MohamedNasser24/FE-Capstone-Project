@@ -34,7 +34,7 @@ const WeatherCard = () => {
 
     }
 
-    const api_key = `7ae83956ce1346fa2539120809548e04`
+    const api_key = `03dbae8c5b2383ac57d71788e972ded1`
 
     const search = async (city)=>{
         if(city === ""){
